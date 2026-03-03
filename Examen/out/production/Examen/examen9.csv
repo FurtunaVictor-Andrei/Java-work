@@ -1,0 +1,9 @@
+jobId,user,queue,nodesUsed,durationMin,cpuHours,status
+J100,alice,short,2,120,240,SUCCESS
+J101,bob,long,8,900,7200,SUCCESS
+J102,carol,short,1,60,60,SUCCESS
+J103,alice,long,abc,800,6400,SUCCESS
+J104,dave,gpu,4,300,1200,FAILED
+J105,bob,long,6,,3600,SUCCESS
+J106,carol,short,2,150,300,SUCCESS
+J107,alice,gpu,3,400,1200,ERROR
